@@ -1,0 +1,57 @@
+body {
+  font-family: 'Manrope', sans-serif;
+}
+.jumbotron {
+  border: 2px solid gray;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(coral,white);
+}
+.head1 {
+  background-color: lightslategray;
+}
+#createAccount {
+  margin-top: 20px;
+  padding: 5px;
+}
+#createAccount:hover {
+  border: 2px solid gray;
+}
+.btn:hover {
+  border: 2px solid gray;
+}
+#account {
+  padding: 50px;
+  background-color: lightgray
+}
+.name {
+  font-size: 30px;
+}
+#welcome {
+  display: none;
+}
+#deposit-amount {
+  width: 50%;
+  text-align: end;
+}
+#deposit {
+  margin-top: 10px;
+}
+#withdraw-amount {
+ width: 50%;
+ text-align: end;
+}
+#withdraw {
+  margin-top: 10px;
+}
+.alert {
+  display: none;
+}
+#accountInfo {
+  padding: 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background: linear-gradient(coral,white);
+  }
